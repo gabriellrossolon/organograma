@@ -1,13 +1,14 @@
-import Banner from "./componentes/banner/Banner.js";
-import "./index.css";
-
-
+import Banner from "./componentes/Banner";
+import Form from "./componentes/Formulario";
 
 
 function App() {
   return (
-    <Banner />
-    
+    <div className="App">
+      <Banner />
+      <Form />
+
+    </div>
   );
 }
 
