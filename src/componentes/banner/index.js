@@ -1,5 +1,10 @@
-import { Banner } from "./Banner";
+import '../../index.css'
 
-export default Banner
-
-//Responsavel pela exportação para escopo global (Util caso tenha mais de um arquivo com funções iguais mas estilos diferentes (por exemplo))
+export const Banner = () => {
+    //JSX
+    return (
+        <header className='text-center max-w-full bg-primaryOne-100'>
+            <img src="/assets/banner.png" alt="Banner Principal do Organograma"/>
+        </header>   
+    )
+}

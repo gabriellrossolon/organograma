@@ -9,6 +9,12 @@ module.exports = {
         },
         primaryTwo: {
           100: '#F2F2F2'
+        },
+        white: {
+          100: '#FFFFFF'
+        },
+        lightblue: {
+          100: '#95FFD4'
         }
       },
   },
