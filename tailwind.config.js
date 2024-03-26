@@ -37,6 +37,9 @@ module.exports = {
         inovacaogestao: {
           100: '#FF8A29'
         },
+        fundoum: {
+          100: '#D9F7E9'
+        },
       },
   },
   plugins: [],
